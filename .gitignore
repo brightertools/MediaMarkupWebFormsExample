@@ -1,0 +1,4 @@
+packages/
+.vs/
+src/Web/Bin/
+src/Web/Web.config
