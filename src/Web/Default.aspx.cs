@@ -23,7 +23,7 @@ public partial class _Default : System.Web.UI.Page
         // Create API Client
         var apiClient = new MediaMarkup.ApiClient(clientSettings);
 
-        // Initialise API Client (Validates api keys and gets an api token for subsequest api calls)
+        // Initialise API Client (Validates api keys and gets an api token for subsequent api calls)
         var token = await apiClient.InitializeAsync();
 
         // Check authentication
